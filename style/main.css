@@ -9,9 +9,13 @@
     box-sizing: border-box;
 }
 
+
+/*ELEMENTOS BASE*/
+
 body {
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, Serif, Bebas Neue;
+    color: white;
 }
 
 header .container {
@@ -47,4 +51,22 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+
+/*FILME PRINCIPAL - TRENDING*/
+
+.filme-principal {
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/2.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filme-principal .container .descricao {
+    margin-bottom: 40px;
 }
